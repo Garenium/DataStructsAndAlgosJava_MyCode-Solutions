@@ -1,0 +1,52 @@
+
+///C++///
+#include <iostream>
+
+class CarPart{
+    private:
+        std::string brand;
+    public:
+        CarPart(const std::string& brand) : brand(brand) {}
+};
+
+int main(){
+
+    /* int a =5; */
+    /* int &number= a; */
+
+    /* *number = 3; //5 = 3 invalid */
+
+    CarPart cp1("fender");
+    CarPart cp2 = cp1;
+    if(cp1 == cp2)
+        std::cout << "true";
+
+    return 0;
+}
+
+
+///JAVA///
+
+// import java.io.*;
+import java.util.*;
+
+// class CarPart{
+//   String brand;
+
+//   CarPart(String brandp){
+//     brand = brandp;
+//   }
+// }
+
+class Main{
+  public static void main(String[] args){
+    // CarPart cp1 = new CarPart("fender");
+    // CarPart cp2 = cp1;
+    // if(cp1 == cp2)
+    //   System.out.println("cp1 and cp2 are equal");
+  // }
+
+  System.out.println(Character.SIZE/8);
+  Scanner inp = new Scanner(System.in); //needs io java.util.*
+  }
+}
